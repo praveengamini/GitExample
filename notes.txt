@@ -1,0 +1,21 @@
+install the git
+git --version
+git config
+git config --global --list user.email = "praveengamini009@gmail.com"
+git config --global --list user.name = "praveen"
+git config --global --list 
+
+
+1) Next-Item chapter1.txt
+2)Get-ChildItem _Force //to see the all files including hidden files
+3)git status //used to  check the status of the files in the directory whether tracked or untracked
+4)git add chapter1.txt //adding the chapter1.txt to the staging area
+5)git comit -m "Complete Chapter 1 "//what changes are made at this point
+6)git log //shows the commits that we made
+7)git reset chapter3.txt //unstage the chapter3.txt from the staging area
+8)git diff chapter3.txt //checks the diffence between the present version and previous version
+9)git checkout chapter3.txt //adds the chapter3.txt to the git repository if it is doesn't there in git repository as it is previously there in the git repository
+transfering to remote github:
+workking directory->staging area(git add)->localRepository(git commit -m " ")->Remote Repository
+cmd:
+git remote origin https://github.com/praveengamini/GitExample.git
